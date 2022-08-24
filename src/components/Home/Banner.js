@@ -55,7 +55,7 @@ const Banner = () => {
                     {furnitureCards.map((card, index) => (
                       <div className="item">
                         <div className="col-sm-6">
-                          <h1>
+                          <h1 key={index}>
                             <span>E</span>-SHOPPER
                           </h1>
                           <h2>{card.title}</h2>
@@ -68,7 +68,7 @@ const Banner = () => {
                           <img
                             src={card.banner}
                             className="girl img-responsive"
-                            alt=""
+                            alt="Banner"
                           />
                         </div>
                       </div>

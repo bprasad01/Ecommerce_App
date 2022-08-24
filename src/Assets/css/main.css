@@ -734,6 +734,11 @@ h2.title:before{
   color: #fff;
 }
 
+.cat-active{
+  background-color: #FE980F;
+  color: #fff;
+}
+
 .panel-group .panel-heading + .panel-collapse .panel-body {
   border-top: 0 none;
 }
